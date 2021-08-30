@@ -1,7 +1,8 @@
 import { createStore } from "redux";
 
-//定义state初始化和修改规则
-function counterReducer(state, action) {
+//定义state初始化和修改规则,Reducer是一个纯函数
+function counterReducer(state = 0, action) {
+    // console.log('state',state);
     switch (action.type) {
         case "ADD":
             return state + 1;
