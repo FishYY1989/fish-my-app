@@ -1,6 +1,7 @@
 import ClassComponent from "./pages/ClassComponent";
 import FunctionComponent from "./pages/FunctionComponent";
 import HomePage from "./pages/HomePage";
+import PureComponentPage from "./pages/PureComponentPage";
 import ReactReduxPage from "./pages/ReactReduxPage";
 import ReduxPage from "./pages/ReduxPage";
 import RouterPage from "./pages/RouterPage";
@@ -17,7 +18,8 @@ function App() {
       {/* <UserPage/> */}
       {/* <ReduxPage/> */}
       {/* <ReactReduxPage/> */}
-      <RouterPage/>
+      {/* <RouterPage/> */}
+      <PureComponentPage/>
     </div>
   );
 
