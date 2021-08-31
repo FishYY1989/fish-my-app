@@ -3,6 +3,7 @@ import FunctionComponent from "./pages/FunctionComponent";
 import HomePage from "./pages/HomePage";
 import ReactReduxPage from "./pages/ReactReduxPage";
 import ReduxPage from "./pages/ReduxPage";
+import RouterPage from "./pages/RouterPage";
 import SetStatePage from "./pages/SetStatePage";
 import UserPage from "./pages/UserPage";
 
@@ -15,7 +16,8 @@ function App() {
       {/* <HomePage/> */}
       {/* <UserPage/> */}
       {/* <ReduxPage/> */}
-      <ReactReduxPage/>
+      {/* <ReactReduxPage/> */}
+      <RouterPage/>
     </div>
   );
 
